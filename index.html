@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="/script.js">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <div class="header-logo">
+                <img src="./assets/icons/logo.svg" alt="Logo">
+                <div class="header-logo_title">
+                    <h2>Explore Indonesia</h2>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">destinations</a></li>
+                    <li><a href="#">experiences</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">gallery</a></li>
+                </ul>
+            </nav>
+            <div class="header-search">
+                <button type="header-search_submit"> <img src="./assets/icons/search.svg" alt=""></button>
+                <button class="header-search_menu"> <img src="./assets/icons/menu.svg" alt=""></button>
+            </div>
+        </header>
+        <div class="container">
+            <div class="main-title">
+                <h1>Explore Indonesia</h1>
+                <div class="main-title_button">
+                    <a href="#">Start travelling</a>
+                </div>
+            </div>
+            <div class="main-page_footer">
+                <div class="main-page_footer-card">
+                    <p>01</p>
+                    <h2>Title here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium?</p>
+                </div>
+                <div class="main-page_footer-card">
+                    <p>01</p>
+                    <h2>Title here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium?</p>
+                </div>
+                <div class="main-page_footer-card">
+                    <p>01</p>
+                    <h2>Title here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium?</p>
+                </div>
+            </div>
+            <div class="main-page_footer-video">
+                <img src="./assets/images/main-vide.png" alt="">
+            </div>
+        </div>
+    </main>
+    <section class="section2">
+        <div class="section2-1">
+            <div class="section2-1_content">
+                <div class="section2-1_content-image">
+                    <img src="./assets/images/img1.png" alt="">
+                </div>
+                <div class="section2-1_content-title">
+                    <h2>The walkways of Indonesia spellbind</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis
+                        rhoncus. </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="section2-2">
+            <div class="section2-2_content">
+                <div class="section2-2_content-image">
+                    <img src="./assets/images/img2.png" alt="">
+                </div>
+                <div class="section2-2_content-title">
+                    <h2>Perfect beaches exude relaxation and fun</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis
+                        rhoncus. </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section3">
+        <div class="container">
+            <div class="section3-1">
+                <h2>Explore Our Secrets</h2>
+                <div class="carousel">
+                    <div class="carousel-images" id="carouselImages">
+                        <div class="carousel-item">
+                            <img src="./assets/images/section2-3.png" alt="Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/section2-2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/section2-1.png" alt="Image 1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
+                </div>
+                <div class="carousel-indicators">
+                    <button onclick="goToSlide(0)" class="active"></button>
+                    <button onclick="goToSlide(1)"></button>
+                    <button onclick="goToSlide(2)"></button>
+                </div>
+
+                <div class="section3-2">
+                    <div class="section3-2_text">
+                        <h2>By The Numbers</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="section3-2_numbers">
+                        <div class="section3-2_numbers-card">
+                            <h2>100+</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.
+                            </p>
+                        </div>
+                        <div class="section3-2_numbers-card">
+                            <h2>43,000+</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo</p>
+                        </div>
+                        <div class="section3-2_numbers-card">
+                            <h2>30+</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section4">
+        <div class="container">
+            <div class="section4-1">
+                <div class="section4-1_text">
+                    <h2>Our hills and valleys are like nothing you’ve seen.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus
+                        dolor sit amet, laoreet elit. Donec mauris tortor.</p>
+                    <div class="section4-1_button">
+                        <a href="#">Start travelling</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="container">
+            <div class="section5-1">
+                <div class="section5-1_text">
+                    <div class="section5-1_text-h2">
+                        <h2>Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.</h2>
+                    </div>
+                    <img src="/assets/images/Photo@2x.png" alt="" width="800px" height="500px">
+                </div>
+                <div class="section5_card">
+                    <div class="section5_card-cards">
+                        <div class="card-image">
+                            <img src="./assets/images/section5-card1.png" alt="">
+                        </div>
+                        <div class="section5-title">
+                            <h2>In The City</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.</p>
+                        </div>
+                    </div>
+                    <div class="section5_card-cards">
+                        <div class="card-image">
+                            <img src="./assets/images/section5-card1.png" alt="">
+                        </div>
+                        <div class="section5-title">
+                            <h2>In The City</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section6">
+        <div class="container">
+            <div class="section6-1">
+                <div class="section6-1_text">
+                    <h2>Photo Gallery</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+                        tempus, eget tincidunt.</p>
+                </div>
+                <div class="section6-1_images">
+                    <div class="photo photo1"><img src="/assets/images/photo1.png" alt="Image 1"></div>
+                    <div class="photo photo2"><img src="/assets/images/photo2.png" alt="Image 2"></div>
+                    <div class="photo photo3"><img src="/assets/images/photo3.png" alt="Image 3"></div>
+                    <div class="photo photo4"><img src="/assets/images/photo4.png" alt="Image 4"></div>
+                    <div class="photo photo5"><img src="/assets/images/Image5.png" alt="Image 5"></div>
+                    <div class="photo photo6"><img src="/assets/images/Image6.png" alt="Image 6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section7">
+        <div class="container">
+            <div class="section7-1">
+                <h2>Getting there</h2>
+                <div class="section7-1_text">
+                    <div class="section7-1_text-1">
+                        <h2>Bookings your flights</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+                            tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent
+                            sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
+                    </div>
+                    <div class="section7-1_text-1">
+                        <h2>Choosing your hotel</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+                            tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent
+                            sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
+
+                        <div class="section7-1_text-inside">
+                            <img src="./assets/images/section7-photo.png" alt="">
+                            <div class="section7-1_text-inside-text">
+                                <h2>Travelling there</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in
+                                    lectus tempus, eget tincidunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section7-1_text-3">
+                        <h2>Planning your experiences</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+                            tempus, eget tincidunt lacus varius. </p>
+                    </div>
+
+                </div>
+                <div class="section7-button">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="section8">
+        
+    </footer>
+    <script>
+        // JavaScript for carousel functionality
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.carousel-item');
+        const indicators = document.querySelectorAll('.carousel-indicators button');
+
+        function updateCarousel() {
+            document.getElementById('carouselImages').style.transform = `translateX(-${currentIndex * 100}%)`;
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateCarousel();
+        }
+
+        function goToSlide(index) {
+            currentIndex = index;
+            updateCarousel();
+        }
+    </script>
+</body>
+
+</html>

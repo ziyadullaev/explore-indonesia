@@ -1,0 +1,119 @@
+
+.main-title {
+    width: 500px;
+    height: 150px;
+    position: relative;
+    text-align: center;
+    // top: 10px;
+
+    h1 {
+        font-family: Roboto;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 130px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffffce;
+    }
+
+    .main-title_button {
+        position: absolute;
+        left: 70px;
+        transform: translateX(-50%);
+        background-color: #DD2242;
+        padding: 15px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+
+        a {
+            color: #ffffffb4;
+            text-decoration: none;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            transition: color 0.3s;
+            z-index: 2;
+        }
+        
+        &:hover {
+            a {
+                color: #e7b3b3;
+            }
+            background-color: #FF0000;
+            transition: background-color 0.3s;
+
+        }
+    }
+}
+
+.main-page_footer {
+    background-color: #0000009f;
+    display: flex;
+    padding: 30px 0;
+    color: #333;
+    font-family: DM Sans;
+    position: absolute;
+    bottom: 0;
+    width: 1050px;
+    height: 200px;
+    margin: 0 auto;
+    left: 120px;
+    bottom: -50px;
+    .main-page_footer-card {
+        margin: 10px;
+        text-align: start;
+
+        :first-child {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 18.75px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #DD2242;
+        }
+
+        h2 {
+            //styleName: H4;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 41.08px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #ffffffda;
+        }
+
+        p {
+            //styleName: Paragraph Light;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.5px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #939393;
+        }
+
+
+    }
+}
+.main-page_footer-video{
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    img{
+        width: 300px;
+        height: 210px;
+    }
+}
